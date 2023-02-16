@@ -1,0 +1,117 @@
+.bgimg{
+    background-image:url(./img/3757c30a762387b.jpg) ;
+    width: 100%;
+    height: 650px;
+    background-attachment: fixed;
+    background-size: contain;
+}
+.navbar{
+    border-radius: 30px;
+}
+ul li{
+    margin: 0px 20px;
+
+}
+ul li a{
+    text-transform: capitalize;
+    font-weight: bold;
+    position: relative;
+}
+ul li a::after{
+    content:"" ;
+    height: 3px;
+    width:0;
+    background-color: aliceblue;
+    position:absolute;
+    left:0;
+    bottom: 0;
+    transition: 0.5s;
+}
+ul li a:hover::after{
+ width: 100%;
+}
+
+.header1{
+    padding-top: 300px;
+    font-size: larger;
+}
+.header1 h1{
+    font-size: 50px;
+}
+.header1 p{
+    font-weight: 800;
+    font-size: xx-large;
+}
+button{
+    background: transparent;
+    padding: 10px 0 ;
+    width: 200px;
+    margin:20px 50px ;
+    border: white solid 2px;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    /* overflow: hidden; */
+}
+span{
+    width:0;
+    height: 100%;
+    background-color: yellow;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    z-index: -2;
+    transition: 0.5s;
+}
+button:hover span{
+    width: 100%;
+}
+button:hover{
+    border: none;
+}
+/* //////////////////////////about/////////////////// */
+.headerset{
+    font-weight: bold;
+    font-family: serif;
+    text-shadow: 2px;
+    text-decoration:underline;
+    font-size: 50px;
+}
+.para{
+    font-weight: 700;
+    font-size: x-large;
+}
+/* ////////////////////////SERVICES//////////////////////////////// */
+#header2{
+    font-weight: bold;
+    font-family: serif;
+    text-shadow: 2px;
+    text-decoration:underline;
+    font-size: 50px;
+}
+#para2{
+    font-weight: 700;
+    font-size: x-large;
+}
+input{
+    border-radius: 20px;
+    width: 500px;
+    border: 3px solid greenyellow;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    outline: 0;
+}
+input:hover{
+    border: none;
+}
+.but{
+    background: transparent;
+    padding: 10px 0 ;
+    width: 200px;
+    margin:20px 50px ;
+    border: white solid 2px;
+    color: white;
+    font-weight: bold;
+}
